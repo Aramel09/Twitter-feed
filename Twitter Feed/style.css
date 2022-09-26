@@ -1,0 +1,156 @@
+*{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #373e40;
+    color: white;
+}
+
+.container{
+    margin: 0%;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.box1{
+    /* background-color: gold; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-size: large;
+
+    border-bottom: 2px solid #b7d5d4;
+}
+
+.box2{
+    /* background-color: brown; */
+    /* display: flex;
+    justify-content: center;
+    align-self: center; */
+    height: 150px;
+
+    border-top: 2px solid #b7d5d4;
+    border-bottom: 2px solid #b7d5d4;
+}
+
+.box3{
+    /* background-color: papayawhip; */
+    display: flex;
+    justify-content: space-between;
+
+    border-top: 2px solid #b7d5d4;
+    border-bottom: 2px solid #b7d5d4;
+}
+
+.box4{
+    /* background-color: darkorange; */
+
+    border-top: 2px solid #b7d5d4;
+    border-bottom: 2px solid #b7d5d4;
+}
+
+
+.box5{
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: space-around;
+
+    border-top: 2px solid #b7d5d4;
+    border-bottom: 2px solid #b7d5d4;
+}
+
+.box6{
+    /* background-color: darkgoldenrod; */
+    display: grid;
+    grid-template-areas: 
+    "Imagen Row1"
+    "Imagen Row2"
+    "Imagen Row3";
+    grid-template-rows: 50px 1fr 30px;
+    grid-template-columns: 150px 1fr;
+
+    border-top: 2px solid #b7d5d4;
+    border-bottom: 2px solid #b7d5d4;
+    
+}
+
+.Imagen{
+    grid-area: Imagen;
+}
+
+.Row1{
+    grid-area: Row1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Row2{
+    grid-area: Row2;
+}
+
+.Row3{
+    grid-area: Row3;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fa-elipsis{
+    align-self: center;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#profile-pic{
+    height: 120px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#follow-button{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: large;
+
+}
+
+#follow{
+    border-radius: 2rem;
+    width: 100px;
+    font-size: large;
+    background-color: white;
+    color: #373e40;
+}
+
+.hover:hover{
+    color: #488286;
+}
+
+#follow:hover{
+    background-color: #488286;
+}
+
+#header-box-four{
+    font-size: large;
+}
+
+#arroba{
+    font-size: small;
+}
+
+#tweets{
+    font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#profile-pic{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hover {
+    color: #488286 ;
+}
